@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VentesAvecSurplus</fullName>
+    <columns>NAME</columns>
+    <columns>FinVente__c</columns>
+    <columns>FondDeCaisse__c</columns>
+    <columns>Recette__c</columns>
+    <columns>Caisse__c</columns>
+    <columns>Deficit__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Surplus__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Ventes Avec Surplus</label>
+</ListView>
