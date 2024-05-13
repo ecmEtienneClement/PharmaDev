@@ -18,6 +18,26 @@
     </fieldPermissions>
      <fieldPermissions>
         <editable>false</editable>
+        <field>Ordonnance__c.DateProchaineRendezVous__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Ordonnance__c.PrixTotal__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Ordonnance__c.Signature__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Ordonnance__c.cache__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+      <fieldPermissions>
+        <editable>false</editable>
         <field>Avoir__c.Description__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -156,6 +176,9 @@
         <field>SousVente__c.Montant__c</field>
         <readable>false</readable>
     </fieldPermissions>
+     <layoutAssignments>
+        <layout>Ordonnance__c-Ordonnance Layout</layout>
+    </layoutAssignments>
       <layoutAssignments>
         <layout>Avoir__c-Avoir Layout</layout>
     </layoutAssignments>
@@ -180,6 +203,10 @@
      <tabVisibilities>
         <tab>Avoir__c</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+       <tabVisibilities>
+        <tab>Ordonnance__c</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>SousVente__c</tab>

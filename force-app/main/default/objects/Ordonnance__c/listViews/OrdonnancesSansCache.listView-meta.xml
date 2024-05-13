@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrdonnancesSansCache</fullName>
+    <columns>NAME</columns>
+    <columns>cache__c</columns>
+    <columns>Signature__c</columns>
+    <columns>DateOrdonnance__c</columns>
+    <columns>DateProchaineRendezVous__c</columns>
+    <columns>PrixTotal__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>cache__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Ordonnances Sans Caché</label>
+</ListView>
