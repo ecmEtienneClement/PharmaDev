@@ -1,7 +1,10 @@
 {
-  "orgName": "etienne company",
+  "orgName": "FreeDev",
   "edition": "Developer",
   "features": ["EnableSetPasswordInApi"],
+  "adminEmail": "ecmfantome08@gmail.com",
+  "username": "ecmuat@creationobjets01.dev",
+  "language": "en_US",
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
