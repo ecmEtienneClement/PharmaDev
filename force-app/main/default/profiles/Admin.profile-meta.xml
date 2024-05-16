@@ -56,6 +56,16 @@
         <field>Contact.Fax</field>
         <readable>true</readable>
     </fieldPermissions>
+      <fieldPermissions>
+        <editable>true</editable>
+        <field>Avoir__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Avoir__c.Montant__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.FirstName__c</field>
@@ -155,6 +165,18 @@
     <layoutAssignments>
         <layout>SousVente__c-Sous Vente Layout</layout>
     </layoutAssignments>
+      <layoutAssignments>
+        <layout>Avoir__c-Avoir Layout</layout>
+    </layoutAssignments>
+     <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Avoir__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -179,6 +201,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Contact</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+     <tabVisibilities>
+        <tab>Avoir__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

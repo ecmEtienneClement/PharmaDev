@@ -16,6 +16,16 @@
         <field>Contact.AssistantName</field>
         <readable>true</readable>
     </fieldPermissions>
+     <fieldPermissions>
+        <editable>false</editable>
+        <field>Avoir__c.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Avoir__c.Montant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AssistantPhone</field>
@@ -146,6 +156,9 @@
         <field>SousVente__c.Montant__c</field>
         <readable>false</readable>
     </fieldPermissions>
+      <layoutAssignments>
+        <layout>Avoir__c-Avoir Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -164,6 +177,10 @@
         <object>Contact</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+     <tabVisibilities>
+        <tab>Avoir__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>SousVente__c</tab>
         <visibility>Hidden</visibility>
