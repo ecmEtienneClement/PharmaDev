@@ -3,7 +3,7 @@
     {
       "path": "force-app",
       "default": true,
-      "package": "CreationObjets01",
+      "package": "pkgCreationObjets01",
       "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
       "versionDescription": ""
@@ -14,8 +14,8 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "59.0",
   "packageAliases": {
-    "CreationObjets01": "0HoQy0000000D3hKAE",
-    "CreationObjets01@0.1.0-1": "04tQy0000001bbpIAA",
-    "CreationObjets01@0.1.0-2": "04tQy0000001bf3IAA"
+    "pkgCreationObjets01": "0HoQy0000000D5JKAU",
+    "pkgCreationObjets01@0.1.0-1": "04tQy0000001blVIAQ",
+    "pkgCreationObjets01@0.1.0-2": "04tQy0000001bn7IAA"
   }
 }

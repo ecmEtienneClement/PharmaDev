@@ -167,10 +167,6 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Avoirs</pluralLabel>
-    <profileSearchLayouts>
-        <fields>NAME</fields>
-        <profileName>System Administrator</profileName>
-    </profileSearchLayouts>
     <searchLayouts>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
         <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
