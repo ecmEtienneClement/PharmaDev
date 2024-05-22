@@ -176,6 +176,36 @@
         <field>Contact.HasOptedOutOfFax</field>
         <readable>false</readable>
     </fieldPermissions>
+      <fieldPermissions>
+        <editable>true</editable>
+        <field>MutationSousVente__c.Quantite__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+      <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.Benefice__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.ConsommationMoyenneMensuel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Inventaire__c.Montant__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ProduitCmdSousVente__c.PrixCumulerCommande__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MutationSousVente__c.Type_de_Mutation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.HomePhone</field>
@@ -374,6 +404,12 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
      <layoutAssignments>
+        <layout>MedicamentSousVente__c-Medicament Sous Vente Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MutationSousVente__c-MutationSousVente Layout</layout>
+    </layoutAssignments>
+     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
      <layoutAssignments>
@@ -393,7 +429,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ProduitCmdSousVente__c-Produit Cmd Sous Vente Layout</layout>
-        <recordType>ProduitCmdSousVente__c.ProduitCmdSousVente</recordType>
     </layoutAssignments>
      <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -432,6 +467,24 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>MedicamentSousVente__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>MutationSousVente__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -509,6 +562,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>SousVente__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+      <tabVisibilities>
+        <tab>MedicamentSousVente__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>MutationSousVente__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

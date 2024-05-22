@@ -16,6 +16,19 @@
         <field>Inventaire__c.Benefice__c</field>
         <readable>true</readable>
     </fieldPermissions>
+
+     <fieldPermissions>
+        <editable>false</editable>
+        <field>MutationSousVente__c.Quantite__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MutationSousVente__c.Type_de_Mutation__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+
+
     <fieldPermissions>
         <editable>false</editable>
         <field>Inventaire__c.ConsommationMoyenneMensuel__c</field>
@@ -242,7 +255,12 @@
     <layoutAssignments>
         <layout>ProduitCmdSousVente__c-Produit Cmd Sous Vente Layout</layout>
     </layoutAssignments>
-
+ <layoutAssignments>
+        <layout>MedicamentSousVente__c-Medicament Sous Vente Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MutationSousVente__c-MutationSousVente Layout</layout>
+    </layoutAssignments>
      <layoutAssignments>
         <layout>Vente__c-Vente Layout</layout>
     </layoutAssignments>
@@ -267,6 +285,14 @@
      <tabVisibilities>
         <tab>Avoir__c</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>MedicamentSousVente__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>MutationSousVente__c</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
        <tabVisibilities>
         <tab>Ordonnance__c</tab>
