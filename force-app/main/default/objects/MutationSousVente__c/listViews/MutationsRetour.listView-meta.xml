@@ -2,12 +2,12 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>MutationsRetour</fullName>
     <columns>NAME</columns>
-    <columns>Type_de_Mutation__c</columns>
+    <columns>TypeDeMutation__c</columns>
     <filterScope>Mine</filterScope>
     <filters>
-        <field>Type_de_Mutation__c</field>
+        <field>TypeDeMutation__c</field>
         <operation>equals</operation>
-        <value>Retour Medicament</value>
+        <value>Retour</value>
     </filters>
     <label>Mutations Retour</label>
 </ListView>

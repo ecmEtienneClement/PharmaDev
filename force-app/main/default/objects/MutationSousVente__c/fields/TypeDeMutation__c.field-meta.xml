@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Type_de_Mutation__c</fullName>
+    <fullName>TypeDeMutation__c</fullName>
     <description>Champs pour le type de Mutation</description>
     <externalId>false</externalId>
     <label>Type de Mutation</label>
@@ -18,9 +18,9 @@
                 <label>changement</label>
             </value>
             <value>
-                <fullName>Retour Medicament</fullName>
+                <fullName>Retour</fullName>
                 <default>false</default>
-                <label>Retour Medicament</label>
+                <label>Retour</label>
             </value>
         </valueSetDefinition>
     </valueSet>

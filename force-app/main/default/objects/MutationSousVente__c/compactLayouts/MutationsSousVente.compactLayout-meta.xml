@@ -2,6 +2,6 @@
 <CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>MutationsSousVente</fullName>
     <fields>Name</fields>
-    <fields>Type_de_Mutation__c</fields>
+    <fields>TypeDeMutation__c</fields>
     <label>Mutations Sous Vente</label>
 </CompactLayout>

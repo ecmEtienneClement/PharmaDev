@@ -175,7 +175,7 @@
         <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
         <excludedStandardButtons>Import</excludedStandardButtons>
         <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
-        <searchResultsAdditionalFields>Type_de_Mutation__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TypeDeMutation__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
