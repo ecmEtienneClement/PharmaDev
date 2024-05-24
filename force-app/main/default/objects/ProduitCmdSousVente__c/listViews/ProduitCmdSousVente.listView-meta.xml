@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProduitCmdSousVente</fullName>
+    <columns>NAME</columns>
+    <columns>PrixCumulerCommande__c</columns>
+    <columns>NombreProduit__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>ProduitCmdSousVente</label>
+</ListView>

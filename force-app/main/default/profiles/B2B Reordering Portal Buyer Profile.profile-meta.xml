@@ -11,6 +11,26 @@
         <field>Vente__c.Caisse__c</field>
         <readable>false</readable>
     </fieldPermissions>
+     <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.Benefice__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.ConsommationMoyenneMensuel__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Inventaire__c.Montant__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ProduitCmdSousVente__c.PrixCumulerCommande__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Vente__c.Deficit__c</field>
@@ -216,6 +236,22 @@
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
+       <layoutAssignments>
+        <layout>Inventaire__c-Inventaire Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProduitCmdSousVente__c-Produit Cmd Sous Vente Layout</layout>
+    </layoutAssignments>
+
+     <layoutAssignments>
+        <layout>Vente__c-Vente Layout</layout>
+    </layoutAssignments>
+      <layoutAssignments>
+        <layout>Avoir__c-Avoir Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>SousVente__c-Sous Vente Layout</layout>
     </layoutAssignments>
@@ -239,6 +275,14 @@
      <tabVisibilities>
         <tab>Vente__c</tab>
         <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+     <tabVisibilities>
+        <tab>Inventaire__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ProduitCmdSousVente__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>SousVente__c</tab>

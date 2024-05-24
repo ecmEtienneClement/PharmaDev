@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProduitCmdSousVente</fullName>
+    <fields>Name</fields>
+    <fields>PrixCumulerCommande__c</fields>
+    <fields>NombreProduit__c</fields>
+    <label>ProduitCmdSousVente</label>
+</CompactLayout>
