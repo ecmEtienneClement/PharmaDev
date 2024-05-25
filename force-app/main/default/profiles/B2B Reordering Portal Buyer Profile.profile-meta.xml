@@ -24,11 +24,9 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>MutationSousVente__c.Type_de_Mutation__c</field>
-        <readable>false</readable>
+        <field>Inventaire__c.Benefice__c</field>
+        <readable>true</readable>
     </fieldPermissions>
-
-
     <fieldPermissions>
         <editable>false</editable>
         <field>Inventaire__c.ConsommationMoyenneMensuel__c</field>
@@ -237,9 +235,7 @@
      <layoutAssignments>
         <layout>Ordonnance__c-Ordonnance Layout</layout>
     </layoutAssignments>
-      <layoutAssignments>
-        <layout>Avoir__c-Avoir Layout</layout>
-    </layoutAssignments>
+    
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -261,14 +257,9 @@
     <layoutAssignments>
         <layout>MutationSousVente__c-MutationSousVente Layout</layout>
     </layoutAssignments>
-     <layoutAssignments>
-        <layout>Vente__c-Vente Layout</layout>
-    </layoutAssignments>
+   
       <layoutAssignments>
         <layout>Avoir__c-Avoir Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SousVente__c-Sous Vente Layout</layout>

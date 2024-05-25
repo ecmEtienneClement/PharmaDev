@@ -3,9 +3,17 @@
     {
       "path": "force-app",
       "default": true,
-      "package": "pkgCreationObjets01",
+      "package": "CreationObjets02",
+      "versionName": "ver 0.2",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    },
+    {
+      "path": "force-app",
+      "package": "CreationObjets02&01V3",
       "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
+      "default": false,
       "versionDescription": ""
     }
   ],
@@ -14,8 +22,11 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "59.0",
   "packageAliases": {
-    "pkgCreationObjets01": "0HoQy0000000D5JKAU",
-    "pkgCreationObjets01@0.1.0-1": "04tQy0000001blVIAQ",
-    "pkgCreationObjets01@0.1.0-2": "04tQy0000001bn7IAA"
+    "CreationObjets02": "0HoQy0000000DYLKA2",
+    "CreationObjets02@0.1.0-1": "04tQy0000001eppIAA",
+    "CreationObjets02@0.1.0-2": "04tQy0000001erRIAQ",
+    "CreationObjets02@0.1.0-3": "04tQy0000001fAnIAI",
+    "CreationObjets02&01V3": "0HoQy0000000Di1KAE",
+    "CreationObjets02&01V3@0.1.0-1": "04tQy0000001fCPIAY"
   }
 }

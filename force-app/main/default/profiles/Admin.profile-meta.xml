@@ -420,21 +420,15 @@
      <layoutAssignments>
         <layout>Inventaire__c-Inventaire Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
-    </layoutAssignments>
+   
     <layoutAssignments>
         <layout>SousVente__c-Sous Vente Layout</layout>
     </layoutAssignments>
-      <layoutAssignments>
-        <layout>Avoir__c-Avoir Layout</layout>
-    </layoutAssignments>
+    
     <layoutAssignments>
         <layout>ProduitCmdSousVente__c-Produit Cmd Sous Vente Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>ProduitCmdSousVente__c-Produit Cmd Sous Vente Layout</layout>
-    </layoutAssignments>
+
      <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
