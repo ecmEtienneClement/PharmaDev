@@ -141,8 +141,19 @@
         <field>Contact.Title</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SousVente__c.Montant__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SousVente__c-Sous Vente Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -153,6 +164,19 @@
         <object>Contact</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>SousVente__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <tabVisibilities>
+        <tab>SousVente__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Contact</tab>
         <visibility>DefaultOn</visibility>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TypeSousVente__c</fullName>
+    <description>Champs représentant le type de sous vente</description>
+    <externalId>false</externalId>
+    <label>Type Sous Vente</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>vente Standard</fullName>
+                <default>false</default>
+                <label>vente Standard</label>
+            </value>
+            <value>
+                <fullName>vente avec bon-</fullName>
+                <default>false</default>
+                <label>vente avec bon-</label>
+            </value>
+            <value>
+                <fullName>vent avec assurance/couverture</fullName>
+                <default>false</default>
+                <label>vent avec assurance/couverture</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

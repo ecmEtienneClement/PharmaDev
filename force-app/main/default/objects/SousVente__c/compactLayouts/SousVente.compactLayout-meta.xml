@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SousVente</fullName>
+    <fields>Name</fields>
+    <fields>TypeSousVente__c</fields>
+    <fields>Montant__c</fields>
+    <fields>QuantiteVendu__c</fields>
+    <label>Sous Vente</label>
+</CompactLayout>

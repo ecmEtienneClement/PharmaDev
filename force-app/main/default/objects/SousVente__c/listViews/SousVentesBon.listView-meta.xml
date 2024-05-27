@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SousVentesBon</fullName>
+    <columns>NAME</columns>
+    <columns>Montant__c</columns>
+    <columns>QuantiteVendu__c</columns>
+    <columns>ModePaiement__c</columns>
+    <columns>TypeSousVente__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>TypeSousVente__c</field>
+        <operation>equals</operation>
+        <value>vente avec bon-</value>
+    </filters>
+    <label>Sous Ventes Bon</label>
+</ListView>
