@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut__c</fullName>
+    <description>Ce Champs représente Statut de la commande (en cours, livrée...)</description>
+    <externalId>false</externalId>
+    <label>Statut</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EnCours</fullName>
+                <default>true</default>
+                <label>En Cours</label>
+            </value>
+            <value>
+                <fullName>Bloquer</fullName>
+                <default>false</default>
+                <label>Bloquer</label>
+            </value>
+            <value>
+                <fullName>Annuler</fullName>
+                <default>false</default>
+                <label>Annuler</label>
+            </value>
+            <value>
+                <fullName>Livré</fullName>
+                <default>false</default>
+                <label>Livré</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

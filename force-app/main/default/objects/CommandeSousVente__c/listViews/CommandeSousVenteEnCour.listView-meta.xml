@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CommandeSousVenteEnCour</fullName>
+    <columns>NAME</columns>
+    <columns>QuantiteACommander__c</columns>
+    <columns>MontantTotal__c</columns>
+    <columns>Statut__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Statut__c</field>
+        <operation>equals</operation>
+        <value>EnCours</value>
+    </filters>
+    <label>Commande Sous Vente En Cour</label>
+</ListView>
